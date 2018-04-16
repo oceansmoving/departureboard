@@ -167,10 +167,6 @@ function getToken() {
 	}
 	
 	var interval = 10000;
-	
-
-console.log('getToken running, toggle: ' + use)
-
 
 var TOKEN_URL = 'https://api.vasttrafik.se/token';
 var USER_GRANT_TYPE = 'client_credentials';
@@ -178,15 +174,12 @@ var CLIENT_ID = 'YOUR_CLIENT_ID';
 var CLIENT_SECRET = 'YOUR_SECRET';
 var SCOPE_INT = 'YOUR_SCOPE';
 
-
-
    const data = {
       grant_type: USER_GRANT_TYPE,
       client_id: CLIENT_ID,
       client_secret: CLIENT_SECRET,
       scope: SCOPE_INT
     };
-
 
 
   axios.post(TOKEN_URL, queryString.stringify(data))
@@ -205,9 +198,7 @@ var SCOPE_INT = 'YOUR_SCOPE';
 var trips = []
 
 function main(token, id) {
-	
 var relevantTrips = [];
-
 var today = new Date();
 h = today.getHours();
 m = today.getMinutes();
@@ -235,7 +226,6 @@ axios({
   }
 })
   .then(function(response) {
-	  console.log(response)
 	var cnt = -1;
 	
 	  $('table #content').remove();
@@ -306,10 +296,6 @@ axios({
 				}
 				
 		}
-		
-		console.log(relevantTrips)
-		
-
 		  if(timeLeft <= 10 && timeLeft > 5) {
 			  timeLeft = '<td style="background-color: orange;">' + timeLeft + ' min</td>'
 		  }
@@ -353,10 +339,6 @@ axios({
   
 	  
 	  trips = relevantTrips;
-
-	  // if(notify == 1) {
-		// startNotify(relevantTrips)
-	  // }
 	  
 		$('select option').remove()
 		for(i = 0; i < tripArr.length; i++) {
@@ -376,9 +358,6 @@ function startNotify() {
 	
 	if(notify === 1) {
 		interval = 30000;
-	
-
-	console.log(interval);
 	
 	var notifyMe = [];
 	
