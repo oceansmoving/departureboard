@@ -8,6 +8,8 @@ A Node/Electron departureboard application for Västtrafik travels
 * Allows you to filter on specific trips
 * Allows you to set notification for a certain trip
 
+Can be compiled with electron-builder without problems
+
 ### Prerequisites
 
 **NodeJs** & **NPM**
