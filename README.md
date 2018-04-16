@@ -10,7 +10,7 @@ A Node/Electron departureboard application for Västtrafik travels
 
 ### Prerequisites
 
-NodeJs & NPM
+**NodeJs** & **NPM**
 
 Modules required:
 
