@@ -23,9 +23,9 @@ function getToken(stop) {
 	
 var TOKEN_URL = 'https://api.vasttrafik.se/token';
 var USER_GRANT_TYPE = 'client_credentials';
-var CLIENT_ID = 'JDof57qzg7dLS1ipSEy9TKGxIG4a';
-var CLIENT_SECRET = 'y7KVMsSO1W6DHeC9Eerdex3d67Ya';
-var SCOPE_INT = 'jocke';
+var CLIENT_ID = 'YOUR_CLIENT_ID';
+var CLIENT_SECRET = 'YOUR_CLIENT_SECRET';
+var SCOPE_INT = 'YOUR_SCOPE';
 
 
 
