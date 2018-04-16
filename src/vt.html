@@ -1,0 +1,54 @@
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="../assets/css/main.css">
+
+</head>
+
+<body>
+<div id="topbar">
+<img src="../assets/img/vt.svg"/>
+
+<div id="notify">
+Notify me
+</div>
+
+<div id="changeTrip">
+<span>Filter Trip</span>
+<select id="filterTrip">
+</select>
+<button class="button" type="submit" value="submit" onclick="submitTrip()">Update</button>
+<button class="button_clr" type="submit" value="submit" onclick="clearTrip()">Clear</button>
+</input>
+</div>
+<div id="changeLocation">
+
+<span>Change Stop</span>
+
+<input type="text" id="newStop" placeholder="Vågmästareplatsen, Göteborg"></input>
+<button class="button" type="submit" value="submit" onclick="submitData()">Change</button>
+<button class="button_clr" type="submit" value="submit" onclick="clearStop()">Clear</button>
+
+</div>
+</div>
+
+
+
+<table>
+<tr>
+<th>Type</th>
+<th>Trip</th>
+<th>Direction</th>
+<th>Departure</th>
+<th>Discrepancy</th>
+<th>Left</th>
+</tr>
+
+</table>
+<div id="error"></div>
+<div id="loader"><img src="../assets/img/loader.svg"/></div>
+<script src="vt.js">
+
+</script>
+</body>
