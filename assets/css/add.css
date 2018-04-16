@@ -1,0 +1,67 @@
+body {
+    background:#DFDFDF;
+    color:#000;
+    overflow:hidden;
+}
+
+#topbar {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 15vh;
+	line-height: 10vh;
+	margin: 0;
+	background-color: #00AAEB;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.22);
+	-webkit-app-region: drag;
+	color: white;
+}
+
+#topbar p {
+	width: 100vw;
+	height: 5vh;
+	line-height: 5vh;
+	padding-left: 1vw;
+	text-align: center;
+}
+
+.row2 {
+	padding-left: 5wv;
+	margin-top: 18vh;
+	text-align: center;
+}
+
+input {
+    padding-left:12px;
+	height: 10vh;
+    width: 20vw
+}
+
+span {
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+}
+
+#close {
+	margin-top: 5vh;
+	width: 100vw;
+	text-align: center;
+}
+
+#updateBtn {
+	margin-left: 5vw;
+	height: 10vh;
+}
+
+#closeBtn {
+	text-align: center;
+    cursor:pointer;
+    padding:20px;
+    text-decoration:underline;
+}
+
+html, body {
+	background: rgba(226, 226, 226, 0.5);
+	height: 100%;
+}
