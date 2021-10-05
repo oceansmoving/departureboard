@@ -41,6 +41,6 @@
     "xmlhttprequest": "^1.8.0"
   },
   "publishConfig": {
-    "@oceansmoving:registry": "https://npm.pkg.github.com"
+    "@oceansmoving:registry": "https://registry.npmjs.org/"
   }
 }
