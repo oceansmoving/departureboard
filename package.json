@@ -28,10 +28,10 @@
     "node_modules"
   ],
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.22.0",
     "electron-compiler": "^1.0.9",
     "express": "^4.16.3",
-    "jmate": "0.0.2",
+    "jmate": "0.0.3",
     "jquery": "^3.3.1",
     "jsdom": "^11.6.2",
     "najax": "^1.0.3",
