@@ -40,5 +40,8 @@
     "webpack": "^4.2.0",
     "webpack-target-electron-renderer": "^0.4.0",
     "xmlhttprequest": "^1.8.0"
+  },
+  "publishConfig": {
+    "@oceansmoving:registry": "https://npm.pkg.github.com"
   }
 }
