@@ -1,6 +1,6 @@
 {
   "name": "departures",
-  "description": "",
+  "description": "A Node/Electron departureboard application for Västtrafik travels\r ![alt text](http://socialsiberia.com/dp.png)",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "electron": ">=1.8.8",
+    "electron": "21.0.0",
     "electron-builder": "^20.6.2",
     "electron-packager": "^11.1.0"
   },
@@ -27,20 +27,32 @@
     "node_modules"
   ],
   "dependencies": {
+    "@electron/remote": "^2.0.8",
     "axios": "^0.22.0",
+    "dotenv": "^16.0.3",
     "electron-compiler": "^1.0.9",
     "express": "^4.16.3",
     "jmate": "0.0.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.6.1",
     "jsdom": "^11.6.2",
     "najax": "^1.0.3",
     "node-ssh": "^5.1.1",
-    "query-string": "^6.0.0",
+    "query-string": "^6.14.1",
+    "request": "^2.88.2",
     "webpack": "^4.2.0",
     "webpack-target-electron-renderer": "^0.4.0",
     "xmlhttprequest": "^1.8.0"
   },
   "publishConfig": {
     "@oceansmoving:registry": "https://registry.npmjs.org/"
-  }
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oceansmoving/departureboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oceansmoving/departureboard/issues"
+  },
+  "homepage": "https://github.com/oceansmoving/departureboard#readme"
 }
